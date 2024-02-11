@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 30px 50px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
